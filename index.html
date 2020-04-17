@@ -414,28 +414,22 @@ span {
 </a>
 <br />
 <form onsubmit="return search()" class="search_bar">
-<input type="submit" id="search_submit" value="Start" >
+<input type="submit" id="search_submit" value="Bing一下" >
 <span><input class="search" type="text" value="" autocomplete="off" id="search_input" ></span>
 </form>
 </div>
 <br />
 
 <div class="box">
-<a href="http://baidu.com"></a>
-<p><img class="icon" src="img/baidu.png" ></p>
-<p class="url">度娘</p>
+<a href="https:/bing.com"></a>
+<p><img class="icon" src="img/Bing.png" ></p>
+<p class="url">必硬</p>
 </div>
 
 <div class="box">
 <a href="http://www.bing.com/translator/?"></a>
 <p><img class="icon" src="img/Translate.png" ></p>
 <p class="url">翻译</p>
-</div>
-
-<div class="box">
-<a href="http://map.baidu.com"></a>
-<p><img class="icon" src="img/map_baidu.png" ></p>
-<p class="url">百度地图</p>
 </div>
 
 <div class="box">
@@ -466,7 +460,7 @@ span {
 
 <script type="text/javascript">function search(){var e = document.getElementById("search_input"); if(e.value != ""){window.via.searchText(e.value);e.value = "";}return false;}</script>
 
-<script type="text/javascript">function search(){if(document.getElementById("search_input").value != ""){window.location.href = "http://baidu.com/s?ie=utf-8&rn=30&tn=baiduhome_pg&oq=%E5%BC%A0%E7%B1%BD%E6%B2%90&rsv_enter=0&wd=" + document.getElementById("search_input").value;document.getElementById("search_input").value = "";}return false;}</script>
+<script type="text/javascript">function search(){if(document.getElementById("search_input").value != ""){window.location.href = "https://bing.com/search?q=" + document.getElementById("search_input").value;document.getElementById("search_input").value = "";}return false;}</script>
 
 </body>
 </html>
